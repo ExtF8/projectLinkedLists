@@ -38,7 +38,7 @@ To get started with the LinkedList project, follow these steps:
     ```
 2. Navigate to the project directory:
     ```
-    cd linked-list-project
+    cd projectLinkedLists
     ```
 3. Running Tests:
 - The `script.js` file contains test cases for the LinkedList implementation.
