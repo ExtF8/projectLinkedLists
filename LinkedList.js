@@ -228,18 +228,22 @@ export class LinkedLists {
     // List all nodes
     listAllNodes() {
         let current = this.head;
+        let index = 0;
         while (current) {
-            console.log(current);
+            console.log(`Current node at index ${index}: `, current);
             current = current.nextNode;
+            index++;
         }
     }
 
     // List all nodes
     listAllNodesValues() {
         let current = this.head;
+        let index = 0;
         while (current) {
-            console.log(current.value);
+            console.log(`Value of node at index ${index}: `, current.value);
             current = current.nextNode;
+            index++;
         }
     }
 }
