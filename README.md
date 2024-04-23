@@ -2,8 +2,7 @@
 
 ## Introduction
 
-This project is part of [The Odin Project](https://www.theodinproject.com/lessons/javascript-linked-lists)<br />
-and it focuses on implementing a basic linked list data structure in JavaScript.<br />
+This project is part of [The Odin Project](https://www.theodinproject.com/lessons/javascript-linked-lists) and it focuses on implementing a basic linked list data structure in JavaScript.<br />
 Linked lists are fundamental data structures used in computer science to store and manage collections of data efficiently.<br />
 This project will serve as a foundational exercise in understanding linked lists and their operations.
 
