@@ -37,14 +37,12 @@ const nodeAtIndex = linkedList.at(index);
 console.log(`node At Index ${index}:`, nodeAtIndex);
 
 // linkedList.pop();
-// linkedList.listAllNodes();
-// console.log(linkedList.size());
 
 let nodeValueString = 'test5.1';
 let nodeToInsertAtIndex = 6;
 linkedList.insertAt(nodeValueString, nodeToInsertAtIndex);
 
-let value = 'test';
+let value = 'test5.1';
 let contains = linkedList.contains(value);
 console.log(`Does list contains this value - ${value}:`, contains);
 
@@ -59,4 +57,6 @@ console.log(allNodeValuesAsStrings);
 
 linkedList.listAllNodes();
 linkedList.listAllNodesValues();
-console.log(linkedList.size());
+
+let sizeOfList = linkedList.size();
+console.log('Size of this list is: ', sizeOfList);
